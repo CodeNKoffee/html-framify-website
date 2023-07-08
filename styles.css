@@ -27,6 +27,11 @@ body {
   background-size: cover;
 }
 
+/* canvas {
+  height: 100vh;
+  display: block;
+} */
+
 h1 {
   font-size: 80px;
   font-weight: 700;
