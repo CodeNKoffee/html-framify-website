@@ -327,6 +327,7 @@ RESPONSIVENESS
   }
 
   .logo__footer {
+    font-size: 24px;
     display: block;
   }
 }
