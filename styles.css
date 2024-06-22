@@ -382,7 +382,7 @@ RESPONSIVENESS
   }
 }
 
-/* 576px: Small Mobile Phones */
+/* 367px: Small Mobile Phones */
 @media(max-width: 367px) {
   .nav__link--semi-special {
     display: none;
