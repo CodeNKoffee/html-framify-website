@@ -218,6 +218,56 @@ GETTING STARTED
   width: 100%;
 }
 
+.coming-soon-container {
+  position: fixed; /* Fixed positioning allows movement */
+  top: 20%; /* Adjust initial position as needed */
+  left: 20%; /* Adjust initial position as needed */
+  transform: translate(-50%, -50%);  /* Center the container */
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  padding: 24px;
+  background-color: #f0f0f0;  /* Light gray background */
+  animation: bubble-float 10s ease-in-out infinite alternate; /* New animation */
+}
+
+
+@keyframes bubble-float {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  25% {
+    transform: translate(calc(-50% + 50px), calc(-50% + 30px)) rotate(5deg);
+  }
+  50% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  75% {
+    transform: translate(calc(-50% - 30px), calc(-50% - 20px)) rotate(-5deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+}
+
+.coming-soon-text {
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  color: #333; /* Dark gray text */
+  margin: auto;
+  padding-top: 20px;
+}
+
+.coming-soon-icon {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: 24px;
+  color: #f00; /* Red color for the icon */
+}
+
 
 /*
 
