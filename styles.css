@@ -73,6 +73,7 @@ form {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
+  gap: 40px;
 }
 
 input,
@@ -218,13 +219,17 @@ GETTING STARTED
   width: 100%;
 }
 
-textarea {
+input, textarea {
   width: 50%;
 }
 
 @media(max-width: 478px) {
-  textarea {
+  input, textarea {
     width: 100%;
+  }
+
+  form {
+    gap: 0; 
   }
 }
 
