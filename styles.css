@@ -218,6 +218,16 @@ GETTING STARTED
   width: 100%;
 }
 
+textarea {
+  width: 50%;
+}
+
+@media(max-width: 478px) {
+  textarea {
+    width: 100%;
+  }
+}
+
 .coming-soon-container {
   position: fixed; /* Fixed positioning allows movement */
   top: 20%; /* Adjust initial position as needed */
