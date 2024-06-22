@@ -46,7 +46,7 @@
       <!-- MAIN -->
       <main>
         <h1>Contact Us</h1>
-        <form action="POST" method="post" data-netlify="true">
+        <form name="contact" action="POST" method="post" netlify>
           <input type="text" name="name" placeholder="Name" required/>
         
           <input type="email" name="email" placeholder="Email" required />
@@ -57,7 +57,7 @@
             <option value="backend">Backend</option>
             <option value="mobile">Mobile</option>
             <option value="blockchain">Blockchain</option>
-            <option value="ai & ml">AI/Machine Learning</option>
+            <option value="ai & ml">AI/ML</option>
             <option value="devops">DevOps</option>
             <option value="cybersecurity">Cybersecurity</option>
             <option value="product management">Product Management</option>
@@ -65,7 +65,7 @@
             <option value="other">Other</option>
           </select>          
         
-          <textarea name="message" placeholder="Message" required></textarea>
+          <textarea name="message" placeholder="Message" rows="4" cols="50" maxlength="200" required></textarea>
         
           <button id="submit__btn" class="btn" type="submit" value="send">Submit</button>
         </form>        
