@@ -1,20 +1,20 @@
-## Framify - Image Navigation for Device Framesets
+# Framify - Image Navigation for Device Framesets
 
 **Framify** is a lightweight JavaScript library that simplifies the process of showcasing screenshots and images within device framesets. It provides a user-friendly way to present your application or website visuals without the need for complex component libraries.
 
-### Features
+## Features
 
 * **Supports various device framesets:** Customize the appearance using CSS to match your desired device frames (e.g., phones, tablets).
 * **Enables navigation between multiple screenshots/images:** Users can easily navigate through a collection of screenshots or images within the frame.
 * **(Optional) Touch swipe gestures for mobile browsing:** Enhance the user experience on mobile devices by allowing users to swipe through images. (Implementation details depend on your chosen approach)
 * **Easy integration with vanilla HTML, CSS, and JS:** Framify seamlessly integrates with your existing project structure, requiring minimal code changes.
 
-### Installation
+## Installation
 
 1. Download the Framify library files (HTML, CSS, JS) from the project repository (link to be provided).
 2. Include the downloaded files in your project directory:
 
-   ```
+   ```bash
    project-directory/
      framify.html
      framify.css
@@ -22,7 +22,7 @@
      // Your other project files
    ```
 
-### Usage
+## Usage
 
 Here's a basic example of how to use Framify in your HTML project:
 
@@ -48,7 +48,7 @@ Here's a basic example of how to use Framify in your HTML project:
 
 This code includes the Framify CSS and JS files and creates a container with your screenshots. You can customize the styles and behavior using CSS and vanilla JS.
 
-### License
+## License
 
 (Specify the license under which Framify is distributed. Common open-source licenses include MIT, Apache-2.0, etc.)
 
